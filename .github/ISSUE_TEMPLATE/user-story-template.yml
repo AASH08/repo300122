@@ -9,8 +9,8 @@ labels:
 body:
   - type: markdown
     attributes:
-      value: |
-        ### User Story
+      value: | "User Story Writing"
+        
         
         **As a** [user role],
         **I want** [a feature],

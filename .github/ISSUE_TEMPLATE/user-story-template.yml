@@ -1,47 +1,25 @@
-name: User Story
-about: Create a user story issue
-title: '[User Story] - '
 
-on:
-  push:
-    branches:
-      - main
+name: User Story Template
 
-jobs:
-  create-user-story:
-    runs-on: ubuntu-latest
+about: Use this template for creating user stories.
 
-    steps:
-    - name: Create User Story
-      run: |
-        echo "### User Story" >> user-story.md
-        echo "" >> user-story.md
-        echo "**As a**:" >> user-story.md
-        echo "" >> user-story.md
-        echo "**I want**:" >> user-story.md
-        echo "" >> user-story.md
-        echo "**So that**:" >> user-story.md
-        echo "" >> user-story.md
-        echo "**Acceptance Criteria**:" >> user-story.md
-        echo "- [ ] Criteria 1" >> user-story.md
-        echo "- [ ] Criteria 2" >> user-story.md
-        echo "" >> user-story.md
-        echo "**Definition of Done**:" >> user-story.md
-        echo "- [ ] Code is written" >> user-story.md
-        echo "- [ ] Code is reviewed" >> user-story.md
-        echo "- [ ] Tests pass" >> user-story.md
-        echo "- [ ] Documentation is updated" >> user-story.md
-        echo "" >> user-story.md
+title: User Story
+labels:
+  - user-story
 
-    - name: Commit and Push
-      run: |
-        git config --global user.email "github-actions@github.com"
-        git config --global user.name "GitHub Actions"
-        git add user-story.md
-        git commit -m "Add user story"
-        git push
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### User Story
+        
+        **As a** [user role],
+        **I want** [a feature],
+        **So that** [benefit or reason].
+        
+        ### Description
+        [Add a detailed description of the user story here]
 
-
-
-
-
+        ### Acceptance Criteria
+        - [List acceptance criteria here]
+        - [Each criterion should be clear and measurable]

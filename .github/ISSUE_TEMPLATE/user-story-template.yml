@@ -9,7 +9,7 @@ labels:
 body:
   - type: markdown
     attributes:
-      value: | "User Story Writing"
+      value: "User Story Writing"
         
         
         **As a** [user role],

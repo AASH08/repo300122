@@ -1,7 +1,10 @@
 ---
 name: Story
 about: Issue for Story
-title: ''
+Summary: ''
+Description: 
+Acceptance-Criteria: 
+Team:
 labels: Story
 assignees: ''
 

@@ -41,15 +41,15 @@ body:
 
       
   - type: dropdown
-    id: browsers
+    id: Components
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: Components
       multiple: true
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+        - Requirement
+        - Technical
+        - Configuration
+        
   - type: textarea
     id: logs
     attributes:

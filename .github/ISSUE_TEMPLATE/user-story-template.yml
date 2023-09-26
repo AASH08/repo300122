@@ -30,14 +30,17 @@ body:
   - type: dropdown
     id: version
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Team
+      description: Team
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-      default: 0
-    validations:
-      required: true
+        - nexus Avengers
+        - nexus Guardians
+        - nexus Marvels
+        - nexus Excalibur
+        - nexus Thunderbolts
+            validations:
+      required: false
+      
   - type: dropdown
     id: browsers
     attributes:

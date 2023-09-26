@@ -14,7 +14,6 @@ body:
     label: "Acceptance Criteria"
 
 -type: dropdown
-id: Component
 attributes:
 label: Components
 description: changing component

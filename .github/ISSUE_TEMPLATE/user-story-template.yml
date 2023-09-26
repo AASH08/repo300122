@@ -1,5 +1,9 @@
 name: Create User Story
 description: Create User Story?
 
+body:
+- type: textarea
+  attributes:
+    label: "Summary"
 
 

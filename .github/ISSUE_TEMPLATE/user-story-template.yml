@@ -5,3 +5,8 @@ body:
 - type: textarea
   attributes:
     label: "Description"
+
+
+- type: textarea
+  attributes:
+    label: "Acceptance Criteria"

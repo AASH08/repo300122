@@ -6,3 +6,7 @@ contact_links:
   - name: User-Story11
     uses: .github/ISSUE_TEMPLATE/user-story-template.yml
     about: Create A User Story.
+    - name: Bug-Report
+    uses: .github/ISSUE_TEMPLATE/Bug-report.yml
+    about: Create A Bug Report.
+  

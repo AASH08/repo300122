@@ -1,24 +1,7 @@
-name: User Story
-about: Create a user story for a new feature or task
+name: Support Request
+description: Something went wrong and you need help?
 
-on-behalf-of:
-     - Who is the user or stakeholder
-
-as-a:
-     -Type of user
-
-i-want-to:
-     -Action
-
-
-  so-that:
-   -explain the reason or benfit
-
-   acceptance-criteria:
-    - [Criteria 1]
-    - [Criteria 2]
-    - [Criteria 3]
-
-  additional-information: |
-      Any other relvant details or context can be added here.
-  
+body:
+- type: textarea
+  attributes:
+    label: "What's wrong?"

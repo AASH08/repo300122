@@ -4,4 +4,4 @@ description: descrip1
 body:
 - type: textarea
   attributes:
-    label: "Summary"
+    label: "Description"

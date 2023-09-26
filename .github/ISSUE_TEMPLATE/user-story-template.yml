@@ -1,6 +1,6 @@
 name: Create a User Story
 description: User Story
-title: "[User Story]: "
+title: "[Summary]: "
 labels: ["Story"]
 projects: ["Group1"]
 assignees:

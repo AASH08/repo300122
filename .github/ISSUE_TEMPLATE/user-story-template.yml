@@ -1,10 +1,23 @@
 name: User Story
-on: [issue]
+about: Create a user story for a new feature or task
 
-jobs:
-  user_story:
-    steps:
-    -name: Create User Story
-    run: |
-         echo "User Story: ${{github.even.issue.title }}"
-         echo "Description: ${{github.event.issue.body }}"
+on-behalf-of:
+     - Who is the user or stakeholder
+
+as-a:
+     -Type of user
+
+i-want-to:
+  - Achieve a specific goal
+
+  so-that:
+   -explain the reason or benfit
+
+   acceptance-criteria:
+    - [Criteria 1]
+    - [Criteria 2]
+    - [Criteria 3]
+
+  additional-information: |
+      Any other relvant details or context can be added here.
+  

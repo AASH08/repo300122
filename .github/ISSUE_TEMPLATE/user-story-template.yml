@@ -4,7 +4,7 @@ title: "[Summary]: "
 labels: ["Story"]
 projects: ["Group1"]
 assignees:
-  - octocat
+  - AASH08
 body:
   - type: markdown
     attributes:

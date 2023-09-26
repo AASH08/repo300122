@@ -1,23 +1,10 @@
-
 name: User Story
+on: [issue]
 
-
-title: User Story
-labels:
-  - user-story
-
-body:
-  - type: markdown
-    attributes:
-      value: "User Story Writing"
-        
-        Given
-        When
-        Then
-          
-        ### Description
-        [Add a detailed description of the user story here]
-
-        ### Acceptance Criteria
-        - [List acceptance criteria here]
-        - [Each criterion should be clear and measurable]
+jobs:
+  user_story:
+    steps:
+    -name: Create User Story
+    run: |
+         echo "User Story: ${{github.even.issue.title }}"
+         echo "Description: ${{github.event.issue.body }}"

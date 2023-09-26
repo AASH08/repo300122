@@ -4,4 +4,8 @@ description: Create User Story?
 body:
 - type: textarea
   attributes:
+    label: "Summary"
+
+- type: textarea
+  attributes:
     label: "What's wrong?"

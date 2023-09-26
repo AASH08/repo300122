@@ -13,10 +13,3 @@ body:
   attributes:
     label: "Acceptance Criteria"
 
--type: dropdown
-attributes:
-label: Components
-options: 
-- configuration
-- requirement
-- technical

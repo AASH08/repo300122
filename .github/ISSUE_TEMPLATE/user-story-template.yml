@@ -1,5 +1,5 @@
 name: Create User Story
-desciption: descrip1
+description: descrip1
 
 body:
 - type: textarea

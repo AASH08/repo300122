@@ -16,7 +16,6 @@ body:
 -type: dropdown
 attributes:
 label: Components
-description: changing component
 options: 
 - configuration
 - requirement

@@ -38,8 +38,7 @@ body:
         - nexus Marvels
         - nexus Excalibur
         - nexus Thunderbolts
-            validations:
-      required: false
+
       
   - type: dropdown
     id: browsers

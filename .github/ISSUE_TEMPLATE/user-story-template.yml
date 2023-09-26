@@ -1,5 +1,5 @@
 name: Create User Story
-description: Something went wrong and you need help?
+description: Create User Story?
 
 body:
 - type: textarea

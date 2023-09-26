@@ -1,9 +1,4 @@
-name: Create User Story
-description: Create User Story?
-
-body:
-- type: textarea
-  attributes:
-    label: "Summary"
-
+user-story:
+title: title1
+about: describe
 

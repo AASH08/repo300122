@@ -1,5 +1,7 @@
-name: Create User Story
-description: descrip1
+name: User Story
+description: Create User Story using this template
+title: "[US]"
+
 
 body:
 - type: textarea
@@ -10,3 +12,13 @@ body:
 - type: textarea
   attributes:
     label: "Acceptance Criteria"
+
+-type: dropdown
+id: Component
+attributes:
+label:Components
+description: changing component
+options: 
+- configuration
+- requirement
+- technical

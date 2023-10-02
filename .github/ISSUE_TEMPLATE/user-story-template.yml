@@ -6,10 +6,19 @@ projects: ["Group1"]
 assignees:
   - AASH08
 body:
-  - type: dropdown
-    id: IssueType
+  - type: textarea
+    id: Acceptance-Criteria
     attributes:
-      label: IssueType
+      label: Acceptance Criteria
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "Given:        When:            Then:"
+    validations:
+      required: true
+  - type: dropdown
+    id: Type
+    attributes:
+      label: Type
       description: Story/Epic/Defect/Support/ProdIncident/Subtask
       options:
         - Story
@@ -20,15 +29,6 @@ body:
         - Subtask (ToDo)
         - Subtask (QA Execution)
       default: 0
-    validations:
-      required: true
-  -type: textarea
-      id: Acceptance-Criteria
-      atributes:
-       label: Acceptance Criteria
-      description: All tell us
-      placeholder: Tell us
-      value: "Given: When: Then:"
     validations:
       required: true
   - type: dropdown

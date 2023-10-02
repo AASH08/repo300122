@@ -24,7 +24,7 @@ body:
       label: Acceptance Criteria
       description: BDD Format
       placeholder: AC in BDD format
-      value: "Given: When: Then:"
+      value: "Test"
     validations:
       required: true
   - type: dropdown

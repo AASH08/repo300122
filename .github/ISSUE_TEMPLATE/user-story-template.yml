@@ -22,14 +22,14 @@ body:
       default: 0
     validations:
       required: true
-        - type: textarea
-    id: Acceptance-Criteria
-    attributes:
+      - type: textarea
+      id: Acceptance-Criteria
+      attributes:
       label: Acceptance Criteria
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
       value: "Given:        When:            Then:"
-    validations:
+      validations:
       required: true
   - type: dropdown
     id: browsers

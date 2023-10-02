@@ -40,11 +40,24 @@ body:
       label: Team
       multiple: false
       options:
-        - Blocker
-        - Critical
-        - High
-        - Medium
-        - Low
+        - Avengers
+        - Guardians
+        - Marvels
+        - Excalibur
+        - Thunderbolts
+        - Gryffindor
+        - Marines
+        - Millenials
+        - Mobile
+        - Sailors
+        - Incredibles
+        - Tesla
+        - Watchmen
+        - Pulsar
+        - Data I/O
+        - Spartans
+        - Raptors
+        - Infinity Stones
       default: 0
 
   - type: dropdown

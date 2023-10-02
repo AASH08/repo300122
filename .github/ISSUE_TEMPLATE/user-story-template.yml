@@ -6,15 +6,6 @@ projects: ["Group1"]
 assignees:
   - AASH08
 body:
-  - type: textarea
-    id: Acceptance-Criteria
-    attributes:
-      label: Acceptance Criteria
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "Given:        When:            Then:"
-    validations:
-      required: true
   - type: dropdown
     id: Type
     attributes:

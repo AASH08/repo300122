@@ -19,13 +19,15 @@ body:
     id: Type
     attributes:
       label: Type
-      description: Story/Epic/Defect/Support/ProdIncident
+      description: Story/Epic/Defect/Support/ProdIncident/Subtask
       options:
         - Story
         - Epic
         - Defect
         - Support
         - Production Incident
+        - Subtask (ToDo)
+        - Subtask (QA Execution)
       default: 0
     validations:
       required: true

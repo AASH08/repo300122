@@ -117,7 +117,7 @@ body:
     attributes:
       label: "%Completion"
       description: "%Completion"
-      placeholder: "ex. 100%"
+      placeholder: "ex. 100"
     validations:
       required: false
 

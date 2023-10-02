@@ -38,7 +38,7 @@ body:
     id: Team
     attributes:
       label: Team
-      multiple: false
+      multiple: true
       options:
         - Avengers
         - Guardians

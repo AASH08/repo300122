@@ -6,7 +6,16 @@ projects: ["Group1"]
 assignees:
   - AASH08
 body:
- - type: dropdown
+  - type: textarea
+    id: Acceptance-Criteria
+    attributes:
+      label: Acceptance Criteria
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "Given:        When:            Then:"
+    validations:
+      required: true
+  - type: dropdown
     id: Type
     attributes:
       label: Type
@@ -22,17 +31,7 @@ body:
       default: 0
     validations:
       required: true
-
-  - type: textarea
-    id: Acceptance-Criteria
-    attributes:
-      label: Acceptance Criteria
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "Given:        When:            Then:"
-    validations:
-      required: true
-   - type: dropdown
+  - type: dropdown
     id: browsers
     attributes:
       label: What browsers are you seeing the problem on?

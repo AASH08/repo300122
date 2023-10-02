@@ -1,8 +1,8 @@
 name: Create a User Story
 description: User Story
-title: "[Summary]: "
+title: "[User Story]: "
 labels: ["Story"]
-projects: ["Group1"]
+projects: ["Test Project2"]
 assignees:
   - AASH08
 body:

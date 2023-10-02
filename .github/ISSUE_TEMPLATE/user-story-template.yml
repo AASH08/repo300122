@@ -7,9 +7,9 @@ assignees:
   - AASH08
 body:
   - type: dropdown
-    id: Type
+    id: IssueType
     attributes:
-      label: Type
+      label: IssueType
       description: Story/Epic/Defect/Support/ProdIncident/Subtask
       options:
         - Story

@@ -35,6 +35,19 @@ body:
         - Low
       default: 0
   - type: dropdown
+    id: Team
+    attributes:
+      label: Team
+      multiple: false
+      options:
+        - Blocker
+        - Critical
+        - High
+        - Medium
+        - Low
+      default: 0
+
+  - type: dropdown
     id: Component
     attributes:
       label: Component

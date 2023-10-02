@@ -22,6 +22,15 @@ body:
       default: 0
     validations:
       required: true
+      -type: textarea
+      id: Acceptance-Criteria
+      atributes:
+      label: Acceptance Criteria
+      description: All tell us
+      placeholder: Tell us
+      value: "Given: When: Then:"
+      validations:
+      requird:true
   - type: dropdown
     id: browsers
     attributes:

@@ -1,6 +1,6 @@
-name: Create a User Story
-description: User Story
-title: "[Summary]: "
+name: Create A User Story
+description: Create a User Story
+title: "[Story1]: "
 labels: ["Story"]
 projects: ["Group1"]
 assignees:
@@ -9,7 +9,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please fill in the requirement in BDD format.
+        Please fill in the requirement in BDD format
   - type: input
     id: contact
     attributes:
@@ -19,9 +19,9 @@ body:
     validations:
       required: false
   - type: textarea
-    id: Acceptance Criteria
+    id: what-happened
     attributes:
-      label: Acceptance Criteria
+      label: What happened?
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
       value: "A bug happened!"
@@ -30,26 +30,24 @@ body:
   - type: dropdown
     id: version
     attributes:
-      label: Team
-      description: Team
+      label: Version
+      description: What version of our software are you running?
       options:
-        - nexus Avengers
-        - nexus Guardians
-        - nexus Marvels
-        - nexus Excalibur
-        - nexus Thunderbolts
-
-      
+        - 1.0.2 (Default)
+        - 1.0.3 (Edge)
+      default: 0
+    validations:
+      required: true
   - type: dropdown
-    id: Components
+    id: browsers
     attributes:
-      label: Components
+      label: What browsers are you seeing the problem on?
       multiple: true
       options:
-        - Requirement
-        - Technical
-        - Configuration
-        
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
   - type: textarea
     id: logs
     attributes:

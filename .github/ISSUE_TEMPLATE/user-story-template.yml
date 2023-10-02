@@ -42,7 +42,7 @@ body:
         - High
         - Medium
         - Low
-      default: 0
+      default: 3
   - type: textarea
     id: logs
     attributes:

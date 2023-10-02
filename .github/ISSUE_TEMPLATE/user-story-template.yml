@@ -82,7 +82,7 @@ body:
     attributes:
       label: EpicLink
       description: Epic Link
-      placeholder: ex. #1
+      placeholder: "ex. #1"
     validations:
       required: false
   - type: textarea

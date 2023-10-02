@@ -66,10 +66,10 @@ body:
       label: Component
       multiple: true
       options:
-        - Requirement
+        - Functional
         - Technical
-        - Configuration
-        - API
+        - Operational
+        - Micoservice
   - type: textarea
     id: Acceptance-Criteria
     attributes:

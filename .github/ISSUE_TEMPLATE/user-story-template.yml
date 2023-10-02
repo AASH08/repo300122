@@ -35,9 +35,9 @@ body:
     id: Description
     attributes:
       label: Description
-      description: 
+      description: Description
       placeholder: Tell us what you see!
-      value: "Given:        When:            Then:"
+      value: ""
     validations:
       required: true
 

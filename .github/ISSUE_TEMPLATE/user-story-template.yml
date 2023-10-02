@@ -44,6 +44,16 @@ body:
         - Technical
         - Configuration
         - API
+  - type: dropdown
+    id: Component
+    attributes:
+      label: Component
+      multiple: true
+      options:
+        - Requirement
+        - Technical
+        - Configuration
+        - API       
   - type: textarea
     id: Acceptance-Criteria
     attributes:

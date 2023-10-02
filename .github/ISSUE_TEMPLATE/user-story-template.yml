@@ -10,10 +10,10 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-  - type: textarea
-    id: Acceptance Criteria
+    - type: textarea
+    id: what-happened
     attributes:
-      label: Acceptance Criteria
+      label: What happened?
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
       value: "A bug happened!"

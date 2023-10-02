@@ -44,6 +44,30 @@ body:
         - Technical
         - Configuration
         - API
+ - type: dropdown
+    id: Team
+    attributes:
+      label: Team
+      multiple: false
+      options:
+        - Avengers
+        - Guardians
+        - Marvels
+        - Excalibur
+        - Thunderbolts
+        - Gryffindor
+        - Marines
+        - Millenials
+        - Mobile
+        - Sailors
+        - Incredibles
+        - Tesla
+        - Watchmen
+        - Pulsar
+        - Data I/O
+        - Spartans
+        - Raptors
+        - Infinity Stones
   - type: textarea
     id: Acceptance-Criteria
     attributes:

@@ -22,6 +22,18 @@ body:
       default: 0
     validations:
       required: true
+  - type: dropdown
+    id: Priority
+    attributes:
+      label: Priority
+      multiple: false
+      options:
+        - Blocker
+        - Critical
+        - High
+        - Medium
+        - Low
+      default: 0
   - type: textarea
     id: Acceptance-Criteria
     attributes:
@@ -35,24 +47,11 @@ body:
     id: Description
     attributes:
       label: Description
-      description: Description
+      description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
-      value: "Scenario"
+      value: "Given:        When:            Then:"
     validations:
       required: true
-
-  - type: dropdown
-    id: Priority
-    attributes:
-      label: Priority
-      multiple: false
-      options:
-        - Blocker
-        - Critical
-        - High
-        - Medium
-        - Low
-      default: 0
   - type: textarea
     id: logs
     attributes:

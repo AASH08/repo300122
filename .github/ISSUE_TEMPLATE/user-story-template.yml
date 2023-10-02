@@ -30,7 +30,7 @@ body:
       placeholder: Tell us
       value: "Given: When: Then:"
       validations:
-      requird:true
+      required:true
   - type: dropdown
     id: browsers
     attributes:

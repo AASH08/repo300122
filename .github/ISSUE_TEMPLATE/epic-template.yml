@@ -1,0 +1,127 @@
+name: Create an Epic
+description: Epic
+Summary: "[Summary]: "
+labels: ["Epic"]
+projects: ["Group1"]
+assignees:
+  - AASH08
+body:
+  - type: dropdown
+    id: Type
+    attributes:
+      label: Type
+      description: Story/Epic/Defect/Support/ProdIncident/Subtask
+      options:
+        - Story
+        - Epic
+        - Defect
+        - Support
+        - Production Incident
+        - Subtask (ToDo)
+        - Subtask (QA Execution)
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: Priority
+    attributes:
+      label: Priority
+      multiple: false
+      options:
+        - Blocker
+        - Critical
+        - High
+        - Medium
+        - Low
+      default: 0
+  - type: dropdown
+    id: Team
+    attributes:
+      label: Team
+      multiple: false
+      options:
+        - Avengers
+        - Guardians
+        - Marvels
+        - Excalibur
+        - Thunderbolts
+        - Gryffindor
+        - Marines
+        - Millenials
+        - Mobile
+        - Sailors
+        - Incredibles
+        - Tesla
+        - Watchmen
+        - Pulsar
+        - Data I/O
+        - Spartans
+        - Raptors
+        - Infinity Stones
+      default: 0
+
+  - type: dropdown
+    id: Component
+    attributes:
+      label: Component
+      multiple: true
+      options:
+        - Requirement
+        - Technical
+        - Configuration
+        - API
+  - type: textarea
+    id: Acceptance-Criteria
+    attributes:
+      label: Acceptance Criteria
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "Given:        When:            Then:"
+    validations:
+      required: false
+  - type: textarea
+    id: Description
+    attributes:
+      label: Description
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "Description"
+    validations:
+      required: true
+  - type: dropdown
+    id: StoryPoints
+    attributes:
+      label: StoryPoints
+      description: In Fibonacci Series
+      options:
+        - 1
+        - 2
+        - 3
+        - 5
+        - 8
+        - 13
+      default: 0
+    validations:
+      required: false
+  - type: input
+    id: EpicLink
+    attributes:
+      label: EpicLink
+      description: Epic Link
+      placeholder: "ex. #1"
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true

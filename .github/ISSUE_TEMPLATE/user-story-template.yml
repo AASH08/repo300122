@@ -12,7 +12,7 @@ body:
       label: Acceptance Criteria
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
-      value: "A bug happened!"
+      value: "Please enter the Acceptance Criteria in BDD Format"
     validations:
       required: true
   - type: dropdown

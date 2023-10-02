@@ -19,10 +19,13 @@ body:
     id: Type
     attributes:
       label: Type
-      description: Story/Epic/Initiative
+      description: Story/Epic/Defect/Support/ProdIncident
       options:
         - Story
         - Epic
+        - Defect
+        - Support
+        - Production Incident
       default: 0
     validations:
       required: true

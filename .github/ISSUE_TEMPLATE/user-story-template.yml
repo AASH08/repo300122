@@ -35,9 +35,9 @@ body:
         - Low
       default: 0
   - type: dropdown
-    id: Components
+    id: Component
     attributes:
-      label: Priority
+      label: Component
       multiple: true
       options:
         - Requirement

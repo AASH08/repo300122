@@ -34,14 +34,6 @@ body:
         - Medium
         - Low
       default: 0
- - type: input
-    id: EpicLink
-    attributes:
-      label: EpicLink
-      description: Link the Parent Epic
-      placeholder: ex. #1
-    validations:
-      required: false
   - type: dropdown
     id: Component
     attributes:

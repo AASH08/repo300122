@@ -16,9 +16,9 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: version
+    id: Type
     attributes:
-      label: Version
+      label: Type
       description: What version of our software are you running?
       options:
         - 1.0.2 (Default)

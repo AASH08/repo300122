@@ -81,8 +81,8 @@ body:
     id: EpicLink
     attributes:
       label: EpicLink
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      description: Epic Link
+      placeholder: ex. #1
     validations:
       required: false
   - type: textarea

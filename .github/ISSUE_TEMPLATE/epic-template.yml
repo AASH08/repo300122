@@ -88,26 +88,11 @@ body:
       value: "Description"
     validations:
       required: true
-  - type: dropdown
-    id: StoryPoints
-    attributes:
-      label: StoryPoints
-      description: In Fibonacci Series
-      options:
-        - 1
-        - 2
-        - 3
-        - 5
-        - 8
-        - 13
-      default: 0
-    validations:
-      required: false
   - type: input
-    id: EpicLink
+    id: ParentLink
     attributes:
-      label: EpicLink
-      description: Epic Link
+      label: ParentLink
+      description: Parent Link
       placeholder: "ex. #1"
     validations:
       required: false

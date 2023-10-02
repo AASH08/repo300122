@@ -37,7 +37,7 @@ body:
       label: Description
       description: Description
       placeholder: Tell us what you see!
-      value: " "
+      value: "Scenario"
     validations:
       required: true
 

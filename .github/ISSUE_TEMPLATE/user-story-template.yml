@@ -102,7 +102,7 @@ body:
         - 13
       default: 0
     validations:
-      required: true
+      required: false
   - type: input
     id: EpicLink
     attributes:

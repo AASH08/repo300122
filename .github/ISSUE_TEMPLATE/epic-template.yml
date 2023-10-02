@@ -112,6 +112,15 @@ body:
     validations:
       required: false
   - type: textarea
+  - type: input
+    id: "%Completion"
+    attributes:
+      label: "%Completion"
+      description: "%Completion"
+      placeholder: "ex. 100%"
+    validations:
+      required: false
+
     id: logs
     attributes:
       label: Relevant log output

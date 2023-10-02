@@ -52,6 +52,21 @@ body:
       value: "Given:        When:            Then:"
     validations:
       required: true
+  - type: dropdown
+    id: StoryPoints
+    attributes:
+      label: StoryPoints
+      description: In Fibonacci Series
+      options:
+        - 1
+        - 2
+        - 3
+        - 5
+        - 8
+        - 13
+      default: 0
+    validations:
+      required: true
   - type: textarea
     id: logs
     attributes:

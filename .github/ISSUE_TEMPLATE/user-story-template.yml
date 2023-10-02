@@ -19,12 +19,12 @@ body:
     validations:
       required: false
   - type: textarea
-    id: what-happened
+    id: Acceptance Criteria
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: Acceptance Criteria
+      description: BDD Format
+      placeholder: AC in BDD format
+      value: "Given: When: Then:"
     validations:
       required: true
   - type: dropdown

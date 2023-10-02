@@ -1,6 +1,6 @@
-name: Create A User Story
-description: Create a User Story
-title: "[Story1]: "
+name: Create a User Story
+description: User Story
+title: "[Summary]: "
 labels: ["Story"]
 projects: ["Group1"]
 assignees:
@@ -9,7 +9,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please fill in the requirement in BDD format
+        Thanks for taking the time to fill out this bug report!
   - type: input
     id: contact
     attributes:
@@ -30,12 +30,11 @@ body:
   - type: dropdown
     id: version
     attributes:
-      label: Component
-      description: What component is the change on?
+      label: Version
+      description: What version of our software are you running?
       options:
-        - Requirement
-        - Technical
-        - Configuration
+        - 1.0.2 (Default)
+        - 1.0.3 (Edge)
       default: 0
     validations:
       required: true

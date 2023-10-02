@@ -1,6 +1,6 @@
 name: Create an Epic
 description: Epic
-Summary: "[Summary]: "
+title: "[Summary]: "
 labels: ["Epic"]
 projects: ["Group1"]
 assignees:

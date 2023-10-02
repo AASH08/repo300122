@@ -96,6 +96,14 @@ body:
       placeholder: "ex. #1"
     validations:
       required: false
+  - type: input
+    id: PercentComplete
+    attributes:
+      label: PercentComplete
+      description: PercentComplete
+      placeholder: "ex. 100%"
+    validations:
+      required: false
   - type: textarea
     id: logs
     attributes:

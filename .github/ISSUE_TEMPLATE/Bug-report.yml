@@ -69,18 +69,6 @@ body:
     validations:
       required: true      
   - type: dropdown
-    id: Mobile type
-    attributes:
-      label: Mobile type
-      description: Mobile type
-      options:
-        - ios
-        - android
-        - ios and android both
-      default: 0
-    validations:
-      required: true
-  - type: dropdown
     id: browsers
     attributes:
       label: What browsers are you seeing the problem on?

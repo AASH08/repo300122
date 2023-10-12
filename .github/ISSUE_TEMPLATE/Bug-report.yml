@@ -28,11 +28,11 @@ body:
   - type: dropdown
     id: Country
     attributes:
-      label: COuntry
-      description: What environment was the defect detected?
+      label: Country
+      description: Country
       options:
-        - UAT
-        - Production
+        - ID
+        - MY
       default: 0
     validations:
       required: true      

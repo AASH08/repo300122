@@ -79,13 +79,13 @@ body:
         - Safari
         - Microsoft Edge   
   - type: dropdown
-    id: mobile
+    id: mobile or
     attributes:
       label: ios or android?
       multiple: true
       options:
-        - Fire
-        - Chr
+        - ios
+        - android
   - type: textarea
     id: logs
     attributes:

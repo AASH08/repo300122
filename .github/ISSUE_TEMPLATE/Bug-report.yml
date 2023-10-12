@@ -28,6 +28,21 @@ body:
     validations:
       required: true
   - type: dropdown
+    id: Story-Points
+    attributes:
+      label: Story Points
+      description: Story Points
+      options:
+        - 1
+        - 2
+        - 3
+        - 5
+        - 8
+        -13
+      default: 0
+    validations:
+      required: false
+  - type: dropdown
     id: Severity
     attributes:
       label: Severity

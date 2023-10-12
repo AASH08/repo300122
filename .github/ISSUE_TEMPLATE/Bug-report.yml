@@ -10,17 +10,6 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this defect report!
-  - type: dropdown
-    id: "Detected in"
-    attributes:
-      label: "Detected in"
-      description: "Detected in"
-      options:
-        - UAT
-        - Production
-      default: 0
-    validations:
-      required: true
   - type: input
     id: contact
     attributes:

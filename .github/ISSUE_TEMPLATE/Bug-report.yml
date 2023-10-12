@@ -78,6 +78,14 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge   
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What?
+      multiple: true
+      options:
+        - Fire
+        - Chr
   - type: textarea
     id: logs
     attributes:

@@ -6,10 +6,6 @@ projects: ["Test Project2"]
 assignees:
   - AASH08
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this defect report!
   - type: input
     id: contact
     attributes:
@@ -18,6 +14,17 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
+  - type: dropdown
+    id: Environment
+    attributes:
+      label: Environment
+      description: What environment was the defect detected?
+      options:
+        - UAT
+        - Production
+      default: 0
+    validations:
+      required: true
   - type: textarea
     id: what-happened
     attributes:

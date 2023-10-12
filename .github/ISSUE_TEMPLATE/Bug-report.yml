@@ -127,7 +127,7 @@ body:
       description: Update the RCA
       placeholder: 
     validations:
-      required: true
+      required: false
   - type: textarea
     id: logs
     attributes:

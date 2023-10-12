@@ -79,7 +79,7 @@ body:
         - Safari
         - Microsoft Edge   
   - type: dropdown
-    id: "mobile or"
+    id: "ios-or-android"
     attributes:
       label: ios or android?
       multiple: true

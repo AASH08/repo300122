@@ -79,7 +79,7 @@ body:
         - Safari
         - Microsoft Edge   
   - type: dropdown
-    id: browsers
+    id: bro
     attributes:
       label: What?
       multiple: true

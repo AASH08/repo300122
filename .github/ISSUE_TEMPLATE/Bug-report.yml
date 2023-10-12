@@ -46,6 +46,17 @@ body:
     validations:
       required: true
   - type: dropdown
+    id: Client
+    attributes:
+      label: Client
+      description: Country
+      options:
+        - ID
+        - MY
+      default: 0
+    validations:
+      required: true      
+  - type: dropdown
     id: version
     attributes:
       label: Version

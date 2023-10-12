@@ -1,15 +1,15 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
+name: Defect
+description: Defect
+title: "[Summary]: "
+labels: ["UAT Defect", "Productionn Incident"]
+projects: ["Test Project2"]
 assignees:
-  - octocat
+  - AASH08
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to fill out this defect report!
   - type: input
     id: contact
     attributes:

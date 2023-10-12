@@ -36,6 +36,18 @@ body:
       default: 0
     validations:
       required: true      
+  - type: dropdown
+    id: Partner
+    attributes:
+      label: Partner
+      description: What environment was the defect detected?
+      options:
+        - Buka
+        - Sociolla
+        - TNGD
+      default: 0
+    validations:
+      required: true
   - type: textarea
     id: what-happened
     attributes:

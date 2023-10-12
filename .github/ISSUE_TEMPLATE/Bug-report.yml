@@ -7,13 +7,39 @@ assignees:
   - AASH08
 body:
   - type: input
-    id: contact
+    id: affect-version
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: affect version
+      description: affect version
+      placeholder: ex. v.5.5.release6
     validations:
-      required: false
+      required: true
+  - type: dropdown
+    id: Priority
+    attributes:
+      label: Priority
+      description: Priority
+      options:
+        - Critical
+        - High
+        - Medium
+        - Low
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: Severity
+    attributes:
+      label: Severity
+      description: Severity
+      options:
+        - Critical
+        - High
+        - Medium
+        - Low
+      default: 0
+    validations:
+      required: true
   - type: dropdown
     id: Environment
     attributes:

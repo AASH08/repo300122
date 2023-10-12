@@ -21,7 +21,7 @@ body:
         - Subtask (QA Execution)
       default: 0
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: Priority
     attributes:
@@ -87,7 +87,7 @@ body:
       placeholder: Tell us what you see!
       value: "Description"
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: StoryPoints
     attributes:

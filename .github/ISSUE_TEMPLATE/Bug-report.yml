@@ -79,7 +79,7 @@ body:
         - Safari
         - Microsoft Edge   
   - type: dropdown
-    id: bro
+    id: Issue encountered on ios or android?
     attributes:
       label: What?
       multiple: true

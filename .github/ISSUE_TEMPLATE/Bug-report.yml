@@ -25,6 +25,17 @@ body:
       default: 0
     validations:
       required: true
+  - type: dropdown
+    id: Country
+    attributes:
+      label: COuntry
+      description: What environment was the defect detected?
+      options:
+        - UAT
+        - Production
+      default: 0
+    validations:
+      required: true      
   - type: textarea
     id: what-happened
     attributes:

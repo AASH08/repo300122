@@ -78,6 +78,14 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
+  - type: dropdown
+    id: Mobile type
+    attributes:
+      label: Affected Mobile type
+      multiple: true
+      options:
+        - ios
+        - android
   - type: textarea
     id: logs
     attributes:

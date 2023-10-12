@@ -69,13 +69,14 @@ body:
     validations:
       required: true      
   - type: dropdown
-    id: version
+    id: Mobile type
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Mobile type
+      description: Mobile type
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - ios
+        - android
+        - ios and android both
       default: 0
     validations:
       required: true

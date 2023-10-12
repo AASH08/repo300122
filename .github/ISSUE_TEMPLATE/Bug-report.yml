@@ -1,5 +1,5 @@
-name: Defect
-description: Defect
+name: Raise a Defect
+description: Raise a Defect
 title: "[Summary]: "
 labels: ["UAT Defect", "Production Incident"]
 projects: ["Test Project2"]

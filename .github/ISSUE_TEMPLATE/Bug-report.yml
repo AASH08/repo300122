@@ -25,29 +25,6 @@ body:
       default: 0
     validations:
       required: true
-  - type: dropdown
-    id: Country
-    attributes:
-      label: Country
-      description: Country
-      options:
-        - MY
-        - ID
-      default: 0
-    validations:
-      required: true
-  - type: dropdown
-    id: For Client
-    attributes:
-      label: For Client
-      description: For CLient
-      options:
-        - Buka
-        - Sociolla
-        - TNGD
-      default: 0
-    validations:
-      required: true
   - type: textarea
     id: what-happened
     attributes:

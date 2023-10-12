@@ -103,6 +103,14 @@ body:
       options:
         - ios
         - android
+  - type: input
+    id: EpicLink
+    attributes:
+      label: EPic Link
+      description: Epic Link
+      placeholder: 
+    validations:
+      required: true
   - type: textarea
     id: what-happened
     attributes:

@@ -78,14 +78,6 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
-  - type: dropdown
-    id: ios or android
-    attributes:
-      label: ios or android
-      multiple: true
-      options:
-        - ios
-        - android
   - type: textarea
     id: logs
     attributes:

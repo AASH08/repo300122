@@ -1,7 +1,7 @@
 name: Defect
 description: Defect
 title: "[Summary]: "
-labels: ["UAT Defect", "Productionn Incident"]
+labels: ["UAT Defect", "Production Incident"]
 projects: ["Test Project2"]
 assignees:
   - AASH08
@@ -120,6 +120,20 @@ body:
       value: "What happened and what did you expect to happen?"
     validations:
       required: true
+  - type: dropdown
+    id: "Defect-category"
+    attributes:
+      label: Defect Category
+      multiple: true
+      options:
+        - Configuration
+        - Requirement
+        - Data
+        - Deployment
+        - Design
+        - Environment
+        - Intermittent
+        - Security
   - type: textarea
     id: RCA
     attributes:

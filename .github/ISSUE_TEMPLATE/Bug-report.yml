@@ -79,9 +79,9 @@ body:
         - Safari
         - Microsoft Edge   
   - type: dropdown
-    id: Issue encountered on ios or android?
+    id: mobile
     attributes:
-      label: What?
+      label: ios or android?
       multiple: true
       options:
         - Fire

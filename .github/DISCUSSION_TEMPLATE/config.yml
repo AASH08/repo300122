@@ -4,5 +4,5 @@ contact_links:
     url: https://github.com/orgs/community/discussions
     about: Please ask and answer questions here.
   - name: announcements
-    uses: .github/DISCUSSION_TEMPLATE/announcements.yml
+    uses: .github/DISCUSSION_TEMPLATE/General.yml
     about: Create An announcements.

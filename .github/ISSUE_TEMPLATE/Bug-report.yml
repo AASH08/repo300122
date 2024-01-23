@@ -59,7 +59,7 @@ body:
   - type: textarea
     id: fix-details
     attributes:
-      label: fix-details
+      label: "Fix Details"
       description: fix details?
       placeholder: 
       value: "fix details?"

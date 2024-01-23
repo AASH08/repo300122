@@ -30,6 +30,15 @@ body:
     validations:
       required: true
   - type: textarea
+    id: AffectedVersion
+    attributes:
+      label: AffectedVersion
+      description: Affected Version
+      placeholder: 
+      value: Affected Version
+    validations:
+      required: false      
+  - type: textarea
     id: Description
     attributes:
       label: Description
@@ -47,14 +56,6 @@ body:
       value: "Step1:"
     validations:
       required: true
-  - type: textarea
-    id: RCA
-    attributes:
-      label: RCA
-      description: Update the RCA
-      placeholder: 
-    validations:
-      required: false
   - type: dropdown
     id: Defect-Category
     attributes:
@@ -68,6 +69,14 @@ body:
     validations:
       required: false
   - type: textarea
+    id: RCA
+    attributes:
+      label: RCA
+      description: Update the RCA
+      placeholder: 
+    validations:
+      required: false
+  - type: textarea
     id: fix-details
     attributes:
       label: "Fix Details"
@@ -76,26 +85,6 @@ body:
       value: "fix details?"
     validations:
       required: false
-  - type: textarea
-    id: AffectedVersion
-    attributes:
-      label: AffectedVersion
-      description: Affected Version
-      placeholder: 
-      value: Affected Version
-    validations:
-      required: false      
-  - type: dropdown
-    id: Country
-    attributes:
-      label: Country
-      description: Country
-      options:
-        - ID
-        - MY
-      default: 0
-    validations:
-      required: true      
   - type: dropdown
     id: Partner
     attributes:
@@ -105,17 +94,6 @@ body:
         - Buka
         - Sociolla
         - TNGD
-      default: 0
-    validations:
-      required: true
-  - type: dropdown
-    id: Client
-    attributes:
-      label: Client
-      description: Country
-      options:
-        - ID
-        - MY
       default: 0
     validations:
       required: true      

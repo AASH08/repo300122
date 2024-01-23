@@ -26,6 +26,12 @@ body:
       options:
         - "SIT"
         - "UAT"
+        - "Smoke Testing"
+        - "Regression Testing"
+        - "Unit Testing"
+        - "Non Functional Testing"
+        - "Performance Testing"
+        - "Production"
       default: 0
     validations:
       required: true

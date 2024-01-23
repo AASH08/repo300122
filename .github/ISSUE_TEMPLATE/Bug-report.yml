@@ -75,18 +75,6 @@ body:
     validations:
       required: false      
   - type: dropdown
-    id: "Phase Detected"
-    attributes:
-      label: "Phase Detected"
-      description: Phase Detected
-      options:
-        - SIT
-        - UAT
-        - Prod        
-      default: 0
-    validations:
-      required: true
-  - type: dropdown
     id: Country
     attributes:
       label: Country

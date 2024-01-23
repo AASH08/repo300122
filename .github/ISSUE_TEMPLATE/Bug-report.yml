@@ -56,6 +56,24 @@ body:
       default: 0
     validations:
       required: false
+  - type: textarea
+    id: fix-details
+    attributes:
+      label: fix-details
+      description: fix details?
+      placeholder: 
+      value: "fix details?"
+    validations:
+      required: false
+  - type: textarea
+    id: AffectedVersion
+    attributes:
+      label: AffectedVersion
+      description: Affected Version
+      placeholder: 
+      value: Affected Version
+    validations:
+      required: false      
   - type: dropdown
     id: Environment
     attributes:

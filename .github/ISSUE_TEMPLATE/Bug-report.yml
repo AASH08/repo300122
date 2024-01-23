@@ -7,6 +7,17 @@ body:
     attributes:
       value: |
        This is a story
+  - type: dropdown
+    id: Type
+    attributes:
+      label: Type
+      description: Type
+      options:
+        - "Bug"
+        - "Production Incident"
+      default: 0
+    validations:
+      required: true
   - type: textarea
     id: Description
     attributes:
@@ -33,17 +44,6 @@ body:
       placeholder: 
     validations:
       required: false
-  - type: dropdown
-    id: Type
-    attributes:
-      label: Type
-      description: Type
-      options:
-        - "UAT Defect"
-        - "Production Incident"
-      default: 0
-    validations:
-      required: true
   - type: dropdown
     id: Priority
     attributes:

@@ -45,18 +45,17 @@ body:
     validations:
       required: false
   - type: dropdown
-    id: Priority
+    id: Defect-Category
     attributes:
-      label: Priority
-      description: Priority
+      label: Defect-category
+      description: Defect Category
       options:
-        - Critical
-        - High
-        - Medium
-        - Low
+        - configuration
+        - code
+        - environment
       default: 0
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: Environment
     attributes:

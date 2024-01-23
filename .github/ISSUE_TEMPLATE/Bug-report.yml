@@ -7,14 +7,6 @@ body:
     attributes:
       value: |
        This is a story
-  - type: input
-    id: affect-version
-    attributes:
-      label: affect version
-      description: affect version
-      placeholder: ex. v.5.5.release6
-    validations:
-      required: true
   - type: dropdown
     id: Type
     attributes:
@@ -39,59 +31,6 @@ body:
       default: 0
     validations:
       required: true
-  - type: dropdown
-    id: Story-Points
-    attributes:
-      label: Story Points
-      description: Story Points
-      options:
-        - 1
-        - 2
-        - 3
-        - 5
-        - 8
-        - 13
-      default: 0
-    validations:
-      required: false
-  - type: dropdown
-    id: Severity
-    attributes:
-      label: Severity
-      description: Severity
-      options:
-        - Critical
-        - High
-        - Medium
-        - Low
-      default: 0
-    validations:
-      required: true
-  - type: dropdown
-    id: Team
-    attributes:
-      label: Team
-      multiple: false
-      options:
-        - Avengers
-        - Guardians
-        - Marvels
-        - Excalibur
-        - Thunderbolts
-        - Gryffindor
-        - Marines
-        - Millenials
-        - Mobile
-        - Sailors
-        - Incredibles
-        - Tesla
-        - Watchmen
-        - Pulsar
-        - Data I/O
-        - Spartans
-        - Raptors
-        - Infinity Stones
-      default: 0     
   - type: dropdown
     id: Environment
     attributes:

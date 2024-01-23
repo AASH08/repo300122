@@ -19,7 +19,7 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: "Phase Detected"
+    id: "Phase-Detected"
     attributes:
       label: "phase-detected"
       description: "phase-detected"

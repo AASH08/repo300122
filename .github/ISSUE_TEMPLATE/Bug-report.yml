@@ -18,6 +18,17 @@ body:
       default: 0
     validations:
       required: true
+  - type: dropdown
+    id: "Phase Detected"
+    attributes:
+      label: "phase-detected"
+      description: "phase-detected"
+      options:
+        - "SIT"
+        - "UAT"
+      default: 0
+    validations:
+      required: true
   - type: textarea
     id: Description
     attributes:

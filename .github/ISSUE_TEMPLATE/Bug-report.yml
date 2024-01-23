@@ -25,6 +25,15 @@ body:
       value: "Step1:"
     validations:
       required: true
+  - type: textarea
+    id: RCA
+    attributes:
+      label: Root Cause Analysis
+      description: RCA
+      placeholder: 
+      value: "Root cause Analysis?"
+    validations:
+      required: true      
   - type: dropdown
     id: Type
     attributes:

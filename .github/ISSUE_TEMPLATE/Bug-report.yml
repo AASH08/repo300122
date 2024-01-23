@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-       THis is a story
+       This is a story
   - type: input
     id: affect-version
     attributes:

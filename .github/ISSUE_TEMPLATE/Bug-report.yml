@@ -14,7 +14,7 @@ body:
       description: Type
       options:
         - "Bug"
-        - "Production Incident"
+        - "Incident"
       default: 0
     validations:
       required: true

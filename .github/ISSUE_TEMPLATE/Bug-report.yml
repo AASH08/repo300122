@@ -16,6 +16,15 @@ body:
       value: "What happened and what did you expect to happen?"
     validations:
       required: true
+  - type: textarea
+    id: Steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to Reproduce
+      placeholder: 
+      value: "What happened and what did you expect to happen?"
+    validations:
+      required: true
   - type: dropdown
     id: Type
     attributes:

@@ -22,7 +22,7 @@ body:
       label: Steps to Reproduce
       description: Steps to Reproduce
       placeholder: 
-      value: " "
+      value: "Step1:"
     validations:
       required: true
   - type: dropdown

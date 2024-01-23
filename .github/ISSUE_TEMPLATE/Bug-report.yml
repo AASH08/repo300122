@@ -111,15 +111,6 @@ body:
       placeholder: 
     validations:
       required: true
-  - type: textarea
-    id: Description
-    attributes:
-      label: Description
-      description: What happened and what did you expect to happen?
-      placeholder: 
-      value: "What happened and what did you expect to happen?"
-    validations:
-      required: true
   - type: dropdown
     id: "Defect-category"
     attributes:

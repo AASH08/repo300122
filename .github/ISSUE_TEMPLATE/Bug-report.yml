@@ -1,10 +1,7 @@
-name: Raise a Defect
-description: Defect
+name: 2. Create a Bug
+description: Bug/Incident
 title: "[Defect]: "
-labels: ["UAT Defect", "Production Incident"]
-projects: ["Test Project2"]
-assignees:
-  - AASH08
+labels: ["bug", "incident"]
 body:
   - type: input
     id: affect-version

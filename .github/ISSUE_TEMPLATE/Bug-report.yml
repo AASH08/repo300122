@@ -28,12 +28,11 @@ body:
   - type: textarea
     id: RCA
     attributes:
-      label: Root Cause Analysis
-      description: RCA
+      label: RCA
+      description: Update the RCA
       placeholder: 
-      value: "Root cause Analysis?"
     validations:
-      required: true      
+      required: false
   - type: dropdown
     id: Type
     attributes:
@@ -143,14 +142,6 @@ body:
         - Environment
         - Intermittent
         - Security
-  - type: textarea
-    id: RCA
-    attributes:
-      label: RCA
-      description: Update the RCA
-      placeholder: 
-    validations:
-      required: false
   - type: textarea
     id: logs
     attributes:

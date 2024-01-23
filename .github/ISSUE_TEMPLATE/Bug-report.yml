@@ -7,6 +7,15 @@ body:
     attributes:
       value: |
        This is a story
+  - type: textarea
+    id: Description
+    attributes:
+      label: Description
+      description: What happened and what did you expect to happen?
+      placeholder: 
+      value: "What happened and what did you expect to happen?"
+    validations:
+      required: true
   - type: dropdown
     id: Type
     attributes:

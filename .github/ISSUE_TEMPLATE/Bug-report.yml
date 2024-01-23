@@ -3,10 +3,10 @@ description: Bug/Incident
 title: "[Defect]: "
 labels: ["bug", "incident"]
 body:
-- type: markdown
+  - type: markdown
     attributes:
       value: |
-        This requirement is a Story
+      THis is a story
   - type: input
     id: affect-version
     attributes:

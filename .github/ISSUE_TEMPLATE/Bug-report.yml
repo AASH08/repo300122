@@ -29,13 +29,12 @@ body:
       default: 0
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: AffectedVersion
     attributes:
       label: AffectedVersion
       description: Affected Version
       placeholder: 
-      value: Affected Version
     validations:
       required: false      
   - type: textarea

@@ -7,88 +7,31 @@ body:
   - type: markdown
     attributes:
       value: |
-       This is a story
-  - type: dropdown
-    id: Type
-    attributes:
-      label: Type
-      description: Type
-      options:
-        - "Bug"
-        - "Incident"
-      default: 0
-    validations:
-      required: true
-  - type: dropdown
-    id: "Phase-Detected"
-    attributes:
-      label: "phase-detected"
-      description: "phase-detected"
-      options:
-        - "SIT"
-        - "UAT"
-        - "Smoke Testing"
-        - "Regression Testing"
-        - "Unit Testing"
-        - "Non Functional Testing"
-        - "Performance Testing"
-        - "Production"
-      default: 0
-    validations:
-      required: true
-  - type: input
-    id: AffectedVersion
-    attributes:
-      label: AffectedVersion
-      description: Affected Version
-      placeholder: 
-    validations:
-      required: false      
+       This is a Design Request
   - type: textarea
     id: Description
     attributes:
       label: Description
-      description: What happened and what did you expect to happen?
+      description: Description
       placeholder: 
-      value: "What happened and what did you expect to happen?"
-    validations:
-      required: true
-  - type: textarea
-    id: Steps-to-reproduce
-    attributes:
-      label: Steps to Reproduce
-      description: Steps to Reproduce
-      placeholder: 
-      value: "Step1:"
-    validations:
-      required: true
-  - type: dropdown
-    id: Defect-Category
-    attributes:
-      label: Defect-category
-      description: Defect Category
-      options:
-        - configuration
-        - code
-        - environment
-      default: 0
+      value: "As a <Persona>, I want to <>, so that <>"
     validations:
       required: false
   - type: textarea
-    id: RCA
+    id: Acceptance-Criteria
     attributes:
-      label: RCA
-      description: Update the RCA
-      placeholder: 
-    validations:
-      required: false
-  - type: textarea
-    id: fix-details
-    attributes:
-      label: "Fix Details"
-      description: fix details?
-      placeholder: 
-      value: "fix details?"
+      label: Acceptance Criteria
+      description: Also, tell us, what did you expect to happen?
+      placeholder: Tell us what you see !
+      value: "Scenario:
+      
+              Given:
+              
+              When:
+              
+              Then:
+              
+              "
     validations:
       required: false
   - type: dropdown

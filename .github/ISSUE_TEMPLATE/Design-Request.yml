@@ -1,0 +1,151 @@
+name: Create a Design Request
+description: "Design Request"
+title: "[Design Request]: "
+labels: ["Design Request"]
+body:
+body:
+  - type: markdown
+    attributes:
+      value: |
+       This is a story
+  - type: dropdown
+    id: Type
+    attributes:
+      label: Type
+      description: Type
+      options:
+        - "Bug"
+        - "Incident"
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: "Phase-Detected"
+    attributes:
+      label: "phase-detected"
+      description: "phase-detected"
+      options:
+        - "SIT"
+        - "UAT"
+        - "Smoke Testing"
+        - "Regression Testing"
+        - "Unit Testing"
+        - "Non Functional Testing"
+        - "Performance Testing"
+        - "Production"
+      default: 0
+    validations:
+      required: true
+  - type: input
+    id: AffectedVersion
+    attributes:
+      label: AffectedVersion
+      description: Affected Version
+      placeholder: 
+    validations:
+      required: false      
+  - type: textarea
+    id: Description
+    attributes:
+      label: Description
+      description: What happened and what did you expect to happen?
+      placeholder: 
+      value: "What happened and what did you expect to happen?"
+    validations:
+      required: true
+  - type: textarea
+    id: Steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to Reproduce
+      placeholder: 
+      value: "Step1:"
+    validations:
+      required: true
+  - type: dropdown
+    id: Defect-Category
+    attributes:
+      label: Defect-category
+      description: Defect Category
+      options:
+        - configuration
+        - code
+        - environment
+      default: 0
+    validations:
+      required: false
+  - type: textarea
+    id: RCA
+    attributes:
+      label: RCA
+      description: Update the RCA
+      placeholder: 
+    validations:
+      required: false
+  - type: textarea
+    id: fix-details
+    attributes:
+      label: "Fix Details"
+      description: fix details?
+      placeholder: 
+      value: "fix details?"
+    validations:
+      required: false
+  - type: dropdown
+    id: Partner
+    attributes:
+      label: Partner
+      description: What environment was the defect detected?
+      options:
+        - Buka
+        - Sociolla
+        - TNGD
+      default: 0
+    validations:
+      required: true      
+  - type: dropdown
+    id: StoryPoints
+    attributes:
+      label: StoryPoints
+      description: In Fibonacci Series
+      options:
+        - 1
+        - 2
+        - 3
+        - 5
+        - 8
+        - 13
+      default: 0
+    validations:
+      required: false
+  - type: input
+    id: EpicLink
+    attributes:
+      label: EpicLink
+      description: Epic Link
+      placeholder: "ex. #1"
+    validations:
+      required: false
+  - type: input
+    id: SubtaskLink
+    attributes:
+      label: SubtaskLink
+      description: Subtask Link
+      placeholder: "ex. #1"
+    validations:
+      required: false
+     
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true

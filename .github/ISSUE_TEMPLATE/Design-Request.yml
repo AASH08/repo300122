@@ -34,15 +34,16 @@ body:
               "
     validations:
       required: false
-  - type: dropdown
-    id: Partner
+  - type: checkboxes
+    id: Tasks
     attributes:
-      label: Partner
+      label: Tasks
       description: What environment was the defect detected?
       options:
-        - Buka
-        - Sociolla
-        - TNGD
+        - label: Figma Links
+        - label: Translation
+        - label: Approval from country/partner
+        - label: Attach Evidence
       default: 0
     validations:
       required: true      

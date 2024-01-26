@@ -44,7 +44,6 @@ body:
         - label: Translation
         - label: Approval from country/partner
         - label: Attach Evidence
-      default: 0
     validations:
       required: true      
   - type: dropdown

@@ -1,6 +1,5 @@
 name: 2. Create a Bug
 description: Bug/Incident
-title: 
 labels: ["bug", "incident"]
 body:
   - type: markdown

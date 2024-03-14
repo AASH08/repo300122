@@ -1,4 +1,4 @@
-name: Create a Sprint Review Closure Report
+name: 7. Create a Sprint Review Closure Report
 description: Sprint Review
 title: "[Sprint Review]: "
 labels: ["Story"]
@@ -6,15 +6,6 @@ projects: ["audax-io/84"]
 assignees:
   - AASH08
 body:
-  - type: textarea
-    id: Acceptance-Criteria
-    attributes:
-      label: Acceptance Criteria
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "Given:        When:            Then:"
-    validations:
-      required: false
   - type: textarea
     id: Description
     attributes:
@@ -25,26 +16,22 @@ body:
     validations:
       required: false
   - type: textarea
-    id: ExpectedBehaviour
+    id: List of Items included
     attributes:
-      label: ExpectedBehaviour
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "ExpectedBehaviour"
+      label: List of Items included
+      description: List of Items included
+      placeholder: List of Items included
+      value: "List of Items included"
     validations:
       required: false
-  - type: textarea
-    id: StepsToReproduce
+  - type: checkboxes
+    id: Tasks
     attributes:
-      label: StepsToReproduce
-      description: Steps to Reproduce
-      placeholder: Tell us what you see!
-      value: "StepsToReproduce"
-    validations:
-      required: false
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+      label: Tasks
+      description: Tasks
+      options:
+        - label: Unit test evidence
+        - label: Integration Test Evidence
+        - label: Code Security Evidence
+        - label: Functional QA auto and manual evidence
+          required: false

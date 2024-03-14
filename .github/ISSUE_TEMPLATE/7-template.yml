@@ -1,7 +1,7 @@
 name: 7. Create a Sprint Review Closure Report
 description: Sprint Review
-title: "[Sprint Review]: "
-labels: ["Story"]
+title: "[Sprint-Review]: "
+labels: ["SRCR"]
 projects: ["audax-io/84"]
 assignees:
   - AASH08

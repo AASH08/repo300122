@@ -16,7 +16,7 @@ body:
     validations:
       required: false
   - type: textarea
-    id: List of Items included
+    id: items
     attributes:
       label: List of Items included
       description: List of Items included
